@@ -1,0 +1,64 @@
+Al hablar sobre estructuras de control en JavaScript, hay algunos conceptos clave 
+que son fundamentales para comprender su funcionamiento. Aquí tienes el 20% más importante 
+del aprendizaje sobre estructuras de control en JavaScript que te ayudará a entender el 80%:
+
+1. Condicionales (if-else):
+- Los condicionales permiten ejecutar diferentes bloques de código dependiendo de una condición. 
+Se utiliza la palabra clave `if` seguida de una expresión que se evalúa como verdadera o falsa.
+- Puedes agregar bloques `else if` y `else` para proporcionar opciones adicionales en caso de que
+ la condición principal sea falsa.
+- Ejemplo:
+```javascript
+if (condicion1) {
+  // Código a ejecutar si la condición1 es verdadera
+} else if (condicion2) {
+  // Código a ejecutar si la condicion1 es falsa y la condicion2 es verdadera
+} else {
+  // Código a ejecutar si todas las condiciones anteriores son falsas
+}
+```
+
+2. Bucles (for, while):
+- Los bucles permiten repetir un bloque de código hasta que se cumpla una condición específica.
+- El bucle `for` es útil cuando sabes cuántas veces se repetirá el código. Utiliza una variable 
+de control y define una condición para ejecutar el bucle.
+- El bucle `while` se utiliza cuando no sabes cuántas veces se repetirá el código, pero se basa 
+en una condición booleana que se evalúa como verdadera o falsa.
+- Ejemplo de bucle `for`:
+```javascript
+for (let i = 0; i < limite; i++) {
+  // Código a ejecutar en cada iteración
+}
+```
+- Ejemplo de bucle `while`:
+```javascript
+while (condicion) {
+  // Código a ejecutar mientras la condición sea verdadera
+}
+```
+
+3. Switch:
+- La declaración `switch` se utiliza para ejecutar diferentes bloques de código según el valor 
+de una expresión.
+- Proporciona una forma más limpia y estructurada de manejar múltiples opciones en lugar de anidar
+ varios `if-else`.
+- Ejemplo:
+```javascript
+switch (expresion) {
+  case valor1:
+    // Código a ejecutar si la expresión coincide con valor1
+    break;
+  case valor2:
+    // Código a ejecutar si la expresión coincide con valor2
+    break;
+  default:
+    // Código a ejecutar si la expresión no coincide con ninguno de los casos anteriores
+    break;
+}
+```
+
+Estos conceptos fundamentales de estructuras de control en JavaScript te ayudarán a comprender 
+cómo tomar decisiones y repetir bloques de código según las condiciones. A medida que avances, 
+puedes explorar más detalles, como los operadores de comparación, la optimización de bucles y 
+el uso de estructuras de control anidadas. Recuerda practicar escribiendo código y resolviendo 
+ejercicios para afianzar tu comprensión y mejorar tus habilidades.
